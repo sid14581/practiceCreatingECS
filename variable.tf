@@ -14,7 +14,7 @@ variable "vpc_name" {
   default = ""
 }
 
-variable "ecsTaskExecutionRole" {
+variable "ecstaskroleone" {
   type    = string
   default = ""
 }

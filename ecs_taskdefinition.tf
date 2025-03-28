@@ -18,9 +18,9 @@ resource "aws_ecs_task_definition" "my_first_task" {
   }
 ]
   DEFINITION
-  requires_compatibilities = ["EC2"]
+  requires_compatibilities = ["FARGATE"]
   network_mode             = "awsvpc"
   memory                   = 512
-  execution_role_arn       = aws_iam_role.ecsTaskExecutionRole.arn
+  execution_role_arn       = aws_iam_role.ecstaskroleone.arn
   cpu                      = 256
 }

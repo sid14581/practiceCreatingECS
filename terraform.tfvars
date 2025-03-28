@@ -3,7 +3,7 @@ cidr_block = "10.0.0.0/16"
 
 vpc_name = "ECS-VPC"
 
-ecsTaskExecutionRole = "ecsTaskExecutionRole"
+ecstaskroleone = "ecstaskroleone"
 
 first_repo    = "first_repo_name"
 first_cluster = "first_cluster"
